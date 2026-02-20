@@ -1,3 +1,5 @@
+## 🎯Objetivo
+Este projeto visa avaliar o desempenho dos trainees do DataLab-UFU após a conclusão das trilhas obrigatórias do DataCamp, identificando lacunas de aprendizado e oportunidades de melhoria técnica.
 
 ## 📊Interpretação das estatísticas descritivas
 
