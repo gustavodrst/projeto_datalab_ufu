@@ -42,7 +42,7 @@ Esta métrica fornece uma medida linear da magnitude do erro em uma escala que �
 
 $$\text{Fórmula:}$$ $$MAE = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i|$$
 
-$\textbf{R2 Score (Coeficiente de Determinação):}$ É uma métrica estatística que representa a porcentagem da variância da variável dependente que é explicada pelo modelo, sendo utilizado para verificar a qualidade do ajuste. 
+$\textbf{R² Score (Coeficiente de Determinação):}$ É uma métrica estatística que representa a porcentagem da variância da variável dependente que é explicada pelo modelo, sendo utilizado para verificar a qualidade do ajuste. 
 $$\text{Fórmula:}$$ $$R^2 = 1 - \frac{SS_{res}}{SS_{tot}}$$
 Onde $SS_{res}$ é a soma dos quadrados dos resíduos e $SS_{tot}$ é a soma total dos quadrados
 
@@ -69,3 +69,19 @@ y_test: As respostas reais do teste, usadas para comparar com as previsões e ca
 E a função train_test_split realiza essa divisão para evitar o Overfitting (sobreajuste). Se testarmos o modelo com os mesmos dados que usamos para treiná-lo, ele pode simplesmente decorar os dados em vez de aprender a lógica por trás deles.
 
 Dividir os dados nos permite simular o mundo real: treinando o modelo e verificamos se ele consegue prever com precisão.
+
+Tendo em vista o que foi exposto acima, o modelo atingiu as seguinte métricas:
+
+$\textbf{Mean Square Error (MSE) = 0.33940353}$
+
+Interpretação: Um valor de 0.3394 é baixo, apontyando que não há muitos outliers onde o modelo errou por uma margem muito grande.
+
+$\textbf{Mean Absolute Error (MAE) =  0.42174985}$
+
+Interpretação: Em média, as previsões do seu modelo estão a apenas 0.42 unidades de distância do valor real.
+
+$\textbf{R² Score = 0.9982}$
+
+Interpretação: O $R^2$ de 0.9982 significa que o seu modelo explica 99,82% da variabilidade dos dados de resposta.
+
+⚠️Ponto de atenção: O valor de $R^2$ ficou próximo de 1.0 indicando que pode ter ocorrido Overfitting (sobreajuste). O modelo pode ter decorado os dados de treino em vez de aprender o padrão.
