@@ -9,9 +9,12 @@ Como a mediana (74.5) é ligeiramente maior que a média (73.67), temos uma leve
 Além disso, há um desvio de aproximadamente 14 pontos que sugere uma turma heterogênea, ou seja, existem alunos que estão indo muito bem e os que estão com dificuldade.
 
 De modo geral é uma turma com bom desempenho geral, já que a maioria (75%) tirou acima de 63 pontos.
+![](https://github.com/gustavodrst/imagens/blob/main/gr%C3%A1ficos_desafio_trainee.png)
 
 ## 🧮Interpretação das Correlações 
 ### Correlações Positivas Fortes (Amarelo)
+![](https://github.com/gustavodrst/imagens/blob/main/correla%C3%A7%C3%A3o_desafio_trainee.png)
+
 Quando uma variável aumenta, a outra também aumenta quase na mesma proporção.
 
 Horas de Estudo X Nota Final (Correlação = 1): estas variáveis apresentam uma correlação positiva perfeita. Indicando que, quanto mais tempo o aluno dedica ao estudo, maior é sua nota final.
